@@ -329,5 +329,7 @@ export default class Simulator {
                 default: 'arcade',
             }
         }));
+
+        this.game.input.touch.manager.enabled = false
     }
 }
