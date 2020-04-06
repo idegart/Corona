@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@vkontakte/vk-bridge": "^2.1.6",
         "chart.js": "^2.9.3",
         "phaser": "^3.22.0",
         "pixi.js": "^5.2.1",

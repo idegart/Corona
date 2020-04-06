@@ -42,6 +42,8 @@
 </template>
 
 <script>
+    import bridge from '@vkontakte/vk-bridge';
+
     import CoronaForm from "@component/Corona/CoronaForm";
     import Simulator from "@plugin/coronaSimulation";
     import CoronaModal from "@component/Corona/CoronaModal";
@@ -103,6 +105,7 @@
         },
 
         mounted() {
+            bridge.send("VKWebAppInit", {});
             this.startSimulation()
         }
     }
