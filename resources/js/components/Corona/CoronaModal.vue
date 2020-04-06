@@ -2,13 +2,11 @@
     <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
         <v-card v-if="params">
             <v-toolbar dark color="primary">
+                <v-btn icon dark @click="dialog = false">
+                    <v-icon>fas fa-times-circle</v-icon>
+                </v-btn>
                 <v-toolbar-title>Статистика симуляции</v-toolbar-title>
                 <v-spacer></v-spacer>
-                <v-toolbar-items>
-                    <v-btn icon dark @click="dialog = false">
-                        <v-icon>fas fa-times-circle</v-icon>
-                    </v-btn>
-                </v-toolbar-items>
             </v-toolbar>
 
             <v-list-item>
