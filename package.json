@@ -25,7 +25,7 @@
     },
     "dependencies": {
         "@vkontakte/vk-bridge": "^2.1.6",
-        "chart.js": "^2.9.3",
+        "chart.js": "^2.9.4",
         "phaser": "^3.22.0",
         "pixi.js": "^5.2.1",
         "vue-chartjs": "^3.5.0",
